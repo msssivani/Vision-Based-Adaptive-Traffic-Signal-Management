@@ -1,0 +1,39 @@
+{
+    "video_filename": "test_clip_10min.mp4",
+    "model": "yolo11n.pt",
+    "tracker": "ByteTrack",
+    "confidence_threshold": 0.4,
+    "total_frames_processed": 18358,
+    "vehicle_classes": {
+        "2": "Car",
+        "3": "Motorcycle",
+        "5": "Bus",
+        "7": "Truck"
+    },
+    "traffic_light_exclusion_zones": {
+        "east_traffic_light": [
+            [
+                1080,
+                230
+            ],
+            [
+                1150,
+                230
+            ],
+            [
+                1150,
+                300
+            ],
+            [
+                1080,
+                300
+            ]
+        ]
+    },
+    "unique_vehicle_ids_per_road": {
+        "north": 42,
+        "east": 21,
+        "south": 4,
+        "west": 21
+    }
+}
