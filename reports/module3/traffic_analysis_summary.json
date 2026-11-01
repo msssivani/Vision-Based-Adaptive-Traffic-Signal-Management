@@ -1,0 +1,51 @@
+{
+    "input_file": "C:\\Users\\Siri\\Desktop\\Vision-Based-Adaptive-Traffic-Signal-Management\\data\\processed\\module2\\track_observations.csv",
+    "observations_used": 2085,
+    "video_time_covered_seconds": 599.94,
+    "roads_found": [
+        "EAST",
+        "NORTH",
+        "SOUTH",
+        "WEST"
+    ],
+    "unique_track_ids_by_road": {
+        "NORTH": 26,
+        "EAST": 18,
+        "SOUTH": 2,
+        "WEST": 17
+    },
+    "waiting_zone_observations": 1630,
+    "waiting_time_method": "First-to-last sampled waiting-zone observation per continuous visit; visits split at gaps greater than 1.0 second",
+    "density_method": "Detected vehicles divided by road ROI polygon pixel area, scaled per 100,000 pixels",
+    "congestion_method": "Heuristic score: 50% maximum queue length, 30% average estimated waiting time, 20% average image-area density proxy",
+    "limitations": [
+        "Every-third-frame sampling reduces temporal precision.",
+        "A vehicle can be missed between sampled frames.",
+        "Waiting times are estimates based on observed waiting-zone intervals.",
+        "Queue length is based on distinct tracked IDs visible in the waiting zone at sampled frames.",
+        "Density is an image-area proxy, not calibrated vehicles per kilometre or lane-kilometre.",
+        "Congestion thresholds are project heuristics and should be described as such."
+    ],
+    "congestion_by_road": [
+        {
+            "road": "NORTH",
+            "congestion_score": 12.17,
+            "congestion_level": "Low"
+        },
+        {
+            "road": "EAST",
+            "congestion_score": 7.25,
+            "congestion_level": "Low"
+        },
+        {
+            "road": "SOUTH",
+            "congestion_score": 5.0,
+            "congestion_level": "Low"
+        },
+        {
+            "road": "WEST",
+            "congestion_score": 7.51,
+            "congestion_level": "Low"
+        }
+    ]
+}

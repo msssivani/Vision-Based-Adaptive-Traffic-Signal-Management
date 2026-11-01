@@ -1,9 +1,13 @@
 {
-    "video_filename": "test_clip_10min.mp4",
+    "video_filename": "traffic_video_10min.mp4",
     "model": "yolo11n.pt",
     "tracker": "ByteTrack",
     "confidence_threshold": 0.4,
-    "total_frames_processed": 18358,
+    "fps": 29.998,
+    "frame_width": 1280,
+    "frame_height": 720,
+    "total_frames_processed": 17998,
+    "duration_seconds": 599.94,
     "vehicle_classes": {
         "2": "Car",
         "3": "Motorcycle",
@@ -30,10 +34,24 @@
             ]
         ]
     },
+    "track_observations": {
+        "filename": "track_observations.csv",
+        "total_observations": 2085,
+        "fields": [
+            "frame_index",
+            "timestamp_seconds",
+            "track_id",
+            "road",
+            "vehicle_class",
+            "center_x",
+            "center_y",
+            "in_waiting_zone"
+        ]
+    },
     "unique_vehicle_ids_per_road": {
-        "north": 42,
-        "east": 21,
-        "south": 4,
-        "west": 21
+        "NORTH": 26,
+        "EAST": 18,
+        "SOUTH": 2,
+        "WEST": 17
     }
 }

@@ -1,0 +1,5 @@
+road,average_detected_vehicles_per_sampled_frame,maximum_detected_vehicles_per_sampled_frame,average_queue_length,maximum_queue_length,average_estimated_wait_seconds,average_density_vehicles_per_100k_roi_pixels,unique_track_ids,congestion_score,congestion_level,score_method
+NORTH,0.396,3,0.294,2,4.674,0.5012,26,12.17,Low,"Heuristic: 50% max queue, 30% average estimated wait, 20% image-area density proxy"
+EAST,0.24,2,0.185,1,5.7,0.4117,18,7.25,Low,"Heuristic: 50% max queue, 30% average estimated wait, 20% image-area density proxy"
+SOUTH,0.001,1,0.001,1,0.0,0.0008,2,5.0,Low,"Heuristic: 50% max queue, 30% average estimated wait, 20% image-area density proxy"
+WEST,0.484,2,0.398,1,7.182,0.3552,17,7.51,Low,"Heuristic: 50% max queue, 30% average estimated wait, 20% image-area density proxy"
