@@ -62,11 +62,11 @@ $$
 
 Where:
 
-- \(P_i\) = Traffic priority score.
-- \(C_i\) = Normalized vehicle count.
-- \(W_i\) = Normalized waiting time.
-- \(Q_i\) = Normalized queue length.
-- \(w_c,w_w,w_q\) = Feature weights.
+- $P_i$ = Traffic priority score.
+- $C_i$ = Normalized vehicle count.
+- $W_i$= Normalized waiting time.
+- $Q_i$ = Normalized queue length.
+- $w_c$, $w_w$, $w_q$ = Feature weights.
 
 Green signal duration is calculated using:
 
