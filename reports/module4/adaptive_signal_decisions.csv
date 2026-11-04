@@ -1,0 +1,5 @@
+road,queue,wait_seconds,density,volume,red_elapsed_seconds,is_emergency,is_pedestrian,score_queue,score_wait,score_density,score_volume,score_starvation,base_priority,emergency_boost,pedestrian_boost,total_priority,priority_rank,allocated_green_seconds,yellow_seconds,all_red_seconds,phase_duration_seconds,split_percentage,allocation_reason
+NORTH,0.294,4.674,0.5012,26.0,0.0,False,False,2.94,3.9,5.01,100.0,0.0,13.01,0.0,0.0,13.01,1,21.7,3.0,1.0,25.7,24.11,Adaptive Proportional Demand
+EAST,0.185,5.7,0.4117,18.0,0.0,False,False,1.85,4.75,4.12,90.0,0.0,11.66,0.0,0.0,11.66,3,20.5,3.0,1.0,24.5,22.78,Adaptive Proportional Demand
+SOUTH,0.001,0.0,0.0008,2.0,0.0,False,False,0.01,0.0,0.01,10.0,0.0,1.01,0.0,0.0,1.01,4,10.9,3.0,1.0,14.9,12.11,Adaptive Proportional Demand
+WEST,0.398,7.182,0.3552,17.0,0.0,False,False,3.98,5.99,3.55,85.0,0.0,12.1,0.0,0.0,12.1,2,20.9,3.0,1.0,24.9,23.22,Adaptive Proportional Demand

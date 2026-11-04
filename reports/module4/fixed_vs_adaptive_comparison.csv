@@ -1,0 +1,6 @@
+road,total_vehicles_arrived,fixed_vehicles_served,adaptive_vehicles_served,fixed_total_delay_sec,adaptive_total_delay_sec,fixed_avg_wait_sec,adaptive_avg_wait_sec,wait_time_reduction_pct,fixed_wasted_green_sec,adaptive_wasted_green_sec,wasted_green_reduction_pct,fixed_final_queue,adaptive_final_queue
+NORTH,26,22,25,1033.8,343.8,39.76,13.22,66.74,89.0,80.0,10.11,4,1
+EAST,18,18,18,561.1,350.1,31.17,19.45,37.61,90.0,89.0,1.11,0,0
+SOUTH,2,2,2,144.4,20.4,72.22,10.22,85.85,125.0,66.0,47.2,0,0
+WEST,17,17,17,837.9,330.9,49.29,19.46,60.51,74.0,77.0,-4.05,0,0
+OVERALL_INTERSECTION,63,59,62,2577.2,1045.2,40.91,16.59,59.45,378.0,312.0,17.46,4,1

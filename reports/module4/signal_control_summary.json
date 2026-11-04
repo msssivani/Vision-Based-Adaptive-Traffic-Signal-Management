@@ -1,0 +1,75 @@
+{
+    "module": "Member 4 \u2013 Adaptive Signal Control",
+    "configuration": {
+        "cycle_time_seconds": 90.0,
+        "min_green_seconds": 10.0,
+        "max_green_seconds": 45.0,
+        "yellow_clearance_seconds": 3.0,
+        "all_red_clearance_seconds": 1.0,
+        "pedestrian_walk_minimum_seconds": 15.0,
+        "saturation_headway_seconds": 2.0
+    },
+    "priority_score_weights": {
+        "queue": 0.35,
+        "wait": 0.25,
+        "density": 0.2,
+        "volume": 0.1,
+        "starvation": 0.1
+    },
+    "immediate_allocations": [
+        {
+            "road": "NORTH",
+            "total_priority": 13.01,
+            "priority_rank": 1,
+            "allocated_green_seconds": 21.7,
+            "split_percentage": 24.11,
+            "allocation_reason": "Adaptive Proportional Demand"
+        },
+        {
+            "road": "EAST",
+            "total_priority": 11.66,
+            "priority_rank": 3,
+            "allocated_green_seconds": 20.5,
+            "split_percentage": 22.78,
+            "allocation_reason": "Adaptive Proportional Demand"
+        },
+        {
+            "road": "SOUTH",
+            "total_priority": 1.01,
+            "priority_rank": 4,
+            "allocated_green_seconds": 10.9,
+            "split_percentage": 12.11,
+            "allocation_reason": "Adaptive Proportional Demand"
+        },
+        {
+            "road": "WEST",
+            "total_priority": 12.1,
+            "priority_rank": 2,
+            "allocated_green_seconds": 20.9,
+            "split_percentage": 23.22,
+            "allocation_reason": "Adaptive Proportional Demand"
+        }
+    ],
+    "fixed_vs_adaptive_comparison": {
+        "fixed_total_delay_seconds": 2577.2,
+        "adaptive_total_delay_seconds": 1045.2,
+        "delay_reduction_percentage": 59.45,
+        "fixed_average_wait_seconds": 40.91,
+        "adaptive_average_wait_seconds": 16.59,
+        "fixed_wasted_green_seconds": 378.0,
+        "adaptive_wasted_green_seconds": 312.0,
+        "wasted_green_reduction_percentage": 17.46
+    },
+    "emergency_preemption_events": 1,
+    "pedestrian_calls_served": 3,
+    "generated_files": [
+        "adaptive_signal_decisions.csv",
+        "cycle_by_cycle_log.csv",
+        "fixed_vs_adaptive_comparison.csv",
+        "emergency_pedestrian_events.csv",
+        "signal_performance_comparison.png",
+        "adaptive_green_allocation_timeline.png",
+        "queue_dissipation_profiles.png",
+        "signal_control_summary.json"
+    ]
+}
