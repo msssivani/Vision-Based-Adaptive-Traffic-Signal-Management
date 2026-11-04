@@ -1,0 +1,5 @@
+category,timestamp_seconds,road,details,transition_delay_sec,status
+EMERGENCY_PREEMPTION,180.0,EAST,Ambulance preemption granted (25.0s green),4.0,Preemption Executed & Approach Cleared
+PEDESTRIAN_ACTUATION,90.0,NORTH,2 pedestrian(s) requested crossing,8.0,SERVED
+PEDESTRIAN_ACTUATION,330.0,WEST,3 pedestrian(s) requested crossing,5.0,SERVED
+PEDESTRIAN_ACTUATION,450.0,SOUTH,1 pedestrian(s) requested crossing,0.0,SERVED
