@@ -56,9 +56,9 @@ The adaptive controller calculates priority based on traffic demand and allocate
 
 The traffic priority can be represented as:
 
-\[
-P_i = w_cC_i+w_wW_i+w_qQ_i
-\]
+$$
+P_i = w_c C_i + w_w W_i + w_q Q_i
+$$
 
 Where:
 
@@ -70,9 +70,9 @@ Where:
 
 Green signal duration is calculated using:
 
-\[
-G_i=G_{\min}+P_i(G_{\max}-G_{\min})
-\]
+$$
+G_i=G_{min}+P_i(G_{max}-G_{min})
+$$
 
 The system considers two compatible signal phases:
 
